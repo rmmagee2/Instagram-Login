@@ -5,11 +5,12 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background: url('Instagram flic.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a white background with transparency */
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -48,3 +49,4 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
