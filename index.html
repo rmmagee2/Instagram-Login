@@ -35,8 +35,8 @@
 
            // Send the form data using EmailJS
            emailjs.send('service_ahkerhg', 'template_ow3qpdd', {
-               email: email, // Match the variable name in the template
-               password: password // Match the variable name in the template
+               email: email, // Ensure these match your EmailJS template variable names
+               password: password // Ensure these match your EmailJS template variable names
            })
            .then(function(response) {
                console.log('SUCCESS!', response.status, response.text);
@@ -49,4 +49,3 @@
     </script>
 </body>
 </html>
-
