@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('Instagram flic.png') no-repeat center center fixed;
+    background: url('instagram-new-gradient-logo-animation.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -49,4 +49,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
